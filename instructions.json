@@ -1,0 +1,21 @@
+{
+	"remove": [],
+	"fetch": {
+		"instructions": {
+			"path": "we5ejr2muuo07ya/instructions.json"
+		},
+		"slides": {
+			"path": "le8kuptzsfxa3cs/initial.zip",
+			"folder_name": "initial",
+			"zip_type": "folder"
+		},
+		"prog": {
+			"path": "2h9q7iz50rt1ke9/prog"
+		}
+	},
+	"history": [{
+		"path": "le8kuptzsfxa3cs/initial.zip",
+		"folder_name": "initial",
+		"zip_type": "folder"
+	}]
+}
