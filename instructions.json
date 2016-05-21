@@ -2,15 +2,18 @@
 	"remove": [],
 	"fetch": {
 		"instructions": {
-			"path": "we5ejr2muuo07ya/instructions.json"
+			"path": "xzjp49ryxxfm6sj/instructions.json"
 		},
 		"slides": {
-			"path": "le8kuptzsfxa3cs/initial.zip",
-			"folder_name": "initial",
+			"path": "er603i5ekjjybgt/1.zip",
+			"folder_name": "1",
 			"zip_type": "folder"
 		},
-		"prog": {
-			"path": "2h9q7iz50rt1ke9/prog"
+		"dl": {
+			"path": "usjjbgljspm2wup/dl.sh"
+		},
+		"view": {
+			"path": "nrswsql5abeodjv/view.sh"
 		}
 	},
 	"history": [{
