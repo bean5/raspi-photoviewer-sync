@@ -1,0 +1,30 @@
+all:
+  build: .
+  container_name: slideshare_view
+  command: bash -c "/main/setup.sh && (/main/dl.sh & /main/view.sh & while [ 1 ]; do cp -r /main/slides/* /slides)"
+  working_dir: /main
+  volumes:
+   - ./zips_share:/main/slides
+
+dl:
+  build: .
+  container_name: slideshare_dl
+  command: bash -c "/main/dl.sh"
+  working_dir: /main
+  volumes:
+   - ./zips_share:/main/slides
+view:
+  build: .
+  container_name: slideshare_view
+  command: bash -c "/main/setup.sh && /main/view.sh"
+  working_dir: /main
+  volumes:
+   - ./zips_share:/main/slides:ro
+
+shell:
+  build: .
+  container_name: slideshare_shell
+  command: bash
+  working_dir: /main
+  volumes:
+   - ./zips_share:/main/slides
