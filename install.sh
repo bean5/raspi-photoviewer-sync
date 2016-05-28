@@ -2,7 +2,7 @@
 
 # Mirror this in Dockerfile
 # Ubuntu requirements (actual Ubuntu typically comes with xterm, etc., but safest to be explicit)
-apt-get install -y x11-xserver-utils xterm wget fbi jq fbi jq
+apt-get install -y x11-xserver-utils xterm wget fbi jq
 
 #
 default_loc=$(pwd)/slides/
