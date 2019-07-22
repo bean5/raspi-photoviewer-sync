@@ -1,5 +1,11 @@
 Syncing Slideshow for Raspberry Pi: A Dropbox public sync work-around
 ===
+# Preface
+Note: This is deprecated in favor of chromecast album sharing--at least until I feel like adding the ability to share video. But the 4k chromecast that is about to come out might have that as well--not sure if it has it for screensaver mode, though. We will see.
+ 
+ A quick way to share dropbox folders with a remote device for use as a slideshow. For example, sharing public links to zip files with a raspberry pi that polls for new data.
+ 
+ This bypasses the need for Dropbox syncing on the raspberry pi. Dropbox doesn't work on ARM processors, making work-arounds like this kinda necessary.
 
 # Introduction
 A quick way to share dropbox folders with a remote device for use as a slideshow. For example, sharing public links to zip files with a raspberry pi that polls for new data.
